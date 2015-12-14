@@ -6,5 +6,5 @@ showStorage();
 
 setInterval(	function() 
 	{ 
-	  document.getElementById("a1").innerHTML = "生命值" + shengming;
+	  document.getElementById("shengmingzhi").innerHTML = "生命值" + shengming;
 	} , 1000);
