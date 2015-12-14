@@ -1,1 +1,22 @@
+<html>
 <title>无限生存</title>
+<meta charset="UTF-8">
+<head>
+<link rel="stylesheet" href="http://infinityinfinity.github.io/stylesheets/button.css" type="text/css"/>
+<script src="http://gamehelp16.github.io/chickens/jquery.js"></script>
+<script>
+window.onload = checkLeave();
+if (typeof(element.onselectstart) != "undefined") {        
+    // IE下禁止元素被选取        
+    element.onselectstart = new Function("return false");        
+} else {
+    // firefox下禁止元素被选取的变通办法        
+    element.onmousedown = new Function("return false");        
+    element.onmouseup = new Function("return true");        
+}
+</script>
+</head>
+<body>
+  1
+</body>
+</html>
